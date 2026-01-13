@@ -11,6 +11,7 @@ TARGET_URL="$2"
 USER="${3:-}"
 API_KEY="${4:-}"
 
+
 if [[ -z "$FILE" || -z "$TARGET_URL" ]]; then
   echo "ERROR: Missing arguments"
   echo "Usage: $0 <file> <target_url> <user> <apikey>"

@@ -108,3 +108,4 @@ for f in OVMF.fd OVMF_CODE.fd OVMF_VARS.fd; do
 done
 
 log "OVMF build completed successfully"
+

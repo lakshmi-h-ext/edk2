@@ -45,3 +45,5 @@ jobs:
       - name: Run OVMF build (Secure + Standard)
         run: |
           ci/build-ovmf-inner.sh
+
+          
